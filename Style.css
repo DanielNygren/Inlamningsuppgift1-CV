@@ -113,6 +113,10 @@ footer a:hover{
 }
 
 @media(max-width:800px){
+    #biography p{
+        padding: 10px 0px;
+    }
+    
     #biography img{
         float: none;
         width: 100%;
