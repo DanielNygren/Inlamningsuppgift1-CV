@@ -120,6 +120,7 @@ footer a:hover{
     #merits{
         display: grid;
         grid-template-rows: 1fr 1fr;
+        padding: 5px 0 5px 0;
     }
     #merits-a{
         grid-row: 1;
