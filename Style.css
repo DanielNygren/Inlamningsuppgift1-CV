@@ -1,0 +1,134 @@
+*{
+    /*border: 1px red solid;*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #333;
+    background-image: url(4-47064_rick-and-morty-space.jpg);
+    color: #fafafa;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    min-width: 550px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    
+}
+
+li{
+    margin-top: 15px;
+}
+
+.container{
+    grid-column: 2 / span 2;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #3a3a3af8;
+    padding: 20px;
+    
+}
+.container h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.main-header{
+    text-align: center;
+    grid-column: 2 / span 2;
+    border-bottom: 2px black solid;
+}
+
+.main-header h1{
+    padding: 20px;
+}
+
+#merits{
+    grid-column: 2 / span 2;
+    font-style: italic;
+}
+#biography{
+    grid-column: 2 / span 2;
+    border-bottom: 2px black solid;
+}
+
+#biography img{
+    float: left;
+}
+
+#biography-img{
+    padding: 20px;
+}
+
+#biography p{
+    padding: 10px 20px;
+}
+
+.text a{
+    color: #fafafa;
+    text-decoration: none;  
+}
+.text a:hover{
+    color: #00b0cf;
+}
+
+#merits{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:  20px;
+    border-bottom: 2px black solid;
+}
+#merits-a{
+    grid-column: 1;
+    margin-right: 25px;
+}
+
+
+#merits-b li dfn{
+    color: #00b0cf;
+    font-weight: bold;
+    font-style: normal;
+}
+#merits-b{
+    grid-column: 2;
+    margin-left: 25px;
+}
+
+footer{
+    background-color: #3a3a3af8;
+    padding: 20px;
+    grid-column: 2 / span 2;
+    text-align: center;
+}
+footer h2{
+    padding-bottom: 15px;
+}
+footer a{
+    color: #00b0cf;
+}
+footer a:hover{
+    color: #95cbd4;
+}
+
+@media(max-width:800px){
+    #biography img{
+        float: none;
+        width: 100%;
+    }
+    #merits{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    #merits-a{
+        grid-row: 1;
+        grid-column: 1 / span 2;
+    }
+    #merits-b{
+        grid-row: 2;
+        margin-right: 0px;
+        grid-column: 1 / span 2;
+
+    }
+}
