@@ -12,7 +12,7 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
     line-height: 1.6em;
-    min-width: 500;
+    min-width: 550;
     display: grid;
     grid-template-columns: 1fr 4fr 4fr 1fr;
     
@@ -67,7 +67,7 @@ li{
 }
 
 .text a{
-    color: #fafafa;
+    color: #95cbd4;
     text-decoration: none;  
 }
 .text a:hover{
@@ -106,10 +106,10 @@ footer h2{
     padding-bottom: 15px;
 }
 footer a{
-    color: #00b0cf;
+    color: #95cbd4;
 }
 footer a:hover{
-    color: #95cbd4;
+    color: #00b0cf;
 }
 
 @media(max-width:800px){
