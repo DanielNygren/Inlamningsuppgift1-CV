@@ -125,11 +125,13 @@ footer a:hover{
     #merits-a{
         grid-row: 1;
         grid-column: 1 / span 2;
+        margin-left: 5px;
+        margin-right: auto;
     }
     #merits-b{
         grid-row: 2;
-        margin-right: 0px;
         grid-column: 1 / span 2;
+        margin-left: 5px;
 
     }
 }
