@@ -1,2 +1,2 @@
 # Inlamningsuppgift1-CV
-Inlämningsuppgift 1: CV
+https://danielnygren.github.io/Inlamningsuppgift1-CV/
